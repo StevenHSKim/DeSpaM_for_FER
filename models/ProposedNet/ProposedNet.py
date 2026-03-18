@@ -257,7 +257,7 @@ class ProposedNet_Backbone(torch.nn.Module):
                 module.switch_to_deploy()
 
 class ProposedFERNet(nn.Module):
-    def __init__(self, blocks, channels, emb_dims=512, num_classes=7):
+    def __init__(self, blocks, channels, emb_dims=128, num_classes=7):
         super(ProposedFERNet, self).__init__()
         self.blocks = blocks
         self.backbone = ProposedNet_Backbone(blocks, channels, emb_dims)
