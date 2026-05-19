@@ -1,5 +1,5 @@
 # DeSpaM
-DeSpaM: Decomposed Spatial Modulator for efficient facial expression recognition (FER).
+Official Code Repository for the paper "[Decomposed Spatial Modulator for Efficient Facial-Expression Recognition](https://ieeexplore.ieee.org/abstract/document/11505732)"
 
 DeSpaM is a lightweight decomposed spatial modulator that generates a single-channel spatial gating map on the full $H \times W$ grid (without global pooling) to improve the accuracy-latency tradeoff in real-time facial expression recognition.
 
